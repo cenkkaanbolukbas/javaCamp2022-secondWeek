@@ -1,0 +1,14 @@
+package methodOverloading;
+
+public class Main {
+
+	public static void main(String[] args) {
+		DortIslem dortIslem=new DortIslem();
+		int sonuc=dortIslem.topla(22, 3);
+		System.out.println(sonuc);
+		int sonuc2=dortIslem.topla(22, 11, 44);
+		System.out.println(sonuc2);
+
+	}
+
+}
